@@ -1,6 +1,6 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int expected[]=new int[100];
+        
         int i,j=1;
         int size=nums.length;
         for(i=1;i<size;i++)
